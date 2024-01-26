@@ -1,0 +1,21 @@
+/* For Firefox */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+/* For Webkit (Chrome, Safari, Edge) */
+body::-webkit-scrollbar {
+    width: 0; /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Adjust the color as needed */
+}
+.carousel {
+    z-index: 1; 
+}
+
+.navbar {
+    z-index: 2; 
+}
